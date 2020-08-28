@@ -1,0 +1,32 @@
+<mj-section padding-bottom="0px" padding-top="0">
+  <mj-column>
+    <mj-text css-class="textMargin" align="left" font-size="13px" padding-left="0" padding-right="15px" padding-bottom="10px" padding-top="10px">
+      <p style="font-size: 20px;">
+        <%Artikelbezeichnung und/oder Bestellnummer%>
+      </p>
+      <p style="font-size: 27px; font-weight: bold;">Herzlich willkommen bei medivato!</p>
+      <p style="font-size: 20px; font-weight: 500;">Sehr geehrte(r)
+        <%EName1%>,</p>
+      <p style="font-size: 20px; font-weight: 500;">wir freuen uns, dass Sie sich für unsere Notruflösung entschieden haben und danken Ihnen für Ihr Vertrauen.
+      </p>
+      <p style="font-size: 20px; hyphens: auto;">
+        Mit dem medivato Hausnotruf Classic sind Sie ab sofort bestmöglich in Ihren eigenen vier Wänden abgesichert und im Notfall ist medizinische Hilfe nur einen Knopfdruck von Ihnen entfernt.
+      </p>
+      <p style="font-size: 20px; hyphens: auto;">
+        Sie erhalten in den nächsten Tagen <strong>Ihre persönliche Notruflösung inklusive eines Antrags für die Krankenkasse zur Übernahme der Kosten bei vorliegender Pflegestufe, unsere AGBs und Ihren persönlichen Notfallplan.</strong> Nehmen Sie sich
+        bitte die Zeit, die darin enthaltenden Angaben zu prüfen. Sollten Sie Änderungen wünschen, teilen Sie uns diese gern mit.
+      </p>
+      <p style="font-size: 20px; hyphens: auto;">
+        Sie erreichen Sie uns telefonisch von Montag bis Freitag <strong>zwischen 10 Uhr und 17 Uhr</strong> unter der <strong>Rufnummer 040 655 833 77</strong>. Oder per Email an <strong>service@medivato.de.</strong>
+      </p>
+      <div class="resetPStyles">
+        <p>
+          Herzliche Grüße
+        </p>
+        <p>
+          Ihr medivato Team
+        </p>
+      </div>
+    </mj-text>
+  </mj-column>
+</mj-section>

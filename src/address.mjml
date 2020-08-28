@@ -1,0 +1,54 @@
+<mj-section background-color="#035e89" padding-bottom="0px" padding-top="0">
+        <mj-column width="40%">
+          <mj-text>
+            <p style="color: #fff; font-weight: bold; font-size: 19px;">VERSANDBESTÄTIGUNG</p>
+          </mj-text>
+        </mj-column>
+        <mj-column width="60%">
+          <mj-text>
+            <p align="right" style="color: #fff; font-size: 16px;">Bestellnummer: <strong style="font-size: 19px;">123-456-789</strong></p>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding-top="25px" padding-bottom="25px">
+
+        <mj-column width="50%">
+          <mj-text padding-left="0px">
+            <p style="font-size: 17px">
+              Zustellung:
+            </p>
+            <p style="font-size: 21px; font-weight: 500;">
+              Montag, 25.05.2020 - Mittwoch, 27.05.2020
+            </p>
+          </mj-text>
+          <mj-button align="left" background-color="#f39100" href="#" font-weight="bold" text-transform="uppercase" font-size="16px" width="85%" css-class="button">
+            LIEFERUNG VERFOLGEN <text style="margin-left: 10px;">▶</text>
+          </mj-button>
+        </mj-column>
+
+        <mj-column width="50%">
+          <mj-text padding-right="0px">
+            <p style="font-size: 17px">
+              Die Sendung wurde verschickt an:
+            </p>
+            <p class="paragraphAddress">
+              Hans Meier
+            </p>
+            <p class="paragraphAddress">
+              Hauptstrasse 123
+            </p>
+            <p class="paragraphAddress">
+              01234 Musterstadt
+            </p>
+          </mj-text>
+        </mj-column>
+
+        <mj-column width="100%" border-bottom="3px solid #edecec">
+          <mj-text align="left" padding="15px 0 15px 0">
+            <p style="font-size: 16px;">Die Sendung wurde mit DPD versandt. Wenn Sie diese Sendungen verfolgen möchten, benutzen Sie bitte diese Paketverfolgungsnummer:
+              <%<strong>TTLink</strong>%></p>
+          </mj-text>
+        </mj-column>
+
+      </mj-section>
