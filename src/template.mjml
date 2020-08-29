@@ -32,7 +32,9 @@
       <mj-table padding="0" cellpadding="2">
                       <tr style="text-align:left;padding:0;">
                         <th class="orderP">Rechnungsanschrift</th>
+                        <th style="width: 50px;"></th>
                         <th class="orderP">Lieferanschrift</th>
+                        <th style="width: 50px;"></th>
                         <th class="orderP">Kundendaten</th>
                       </tr>
                       </mj-table>
