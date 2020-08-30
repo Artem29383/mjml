@@ -17,8 +17,8 @@
       </mj-section>
       <mj-section background-color="#035e89" padding-bottom="0px" padding-top="0" css-class="line">
       </mj-section>
-      <mj-section padding-bottom="0px" padding-top="0">
-        <mj-column>
-          <mj-image src="src/assets/logo2.png" padding-left="0px" padding-right="0px" padding-top="3px" />
+      <mj-section padding="0px">
+        <mj-column css-class="imageFull">
+          <mj-image src="src/assets/logo2.png" padding="3px 0 0 0" />
         </mj-column>
       </mj-section>

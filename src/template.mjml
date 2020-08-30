@@ -8,6 +8,9 @@
       border-spacing: 7px!important; } table p { margin: 0!important; } .tableHeader p { color: #fff!important; padding: 20px 0 20px 15px!important; } .tableHeader { background-color: #035e89; } .tableOverviewTD td { line-height: 1.2; } .tableBillBody
       tr { background-color: #e1dfde; } .tableBillBody tr:nth-child(2n) { background-color: #fff; } .tableBillBody p { padding: 10px 15px!important; } .borderBill { border-bottom: 3px solid #c0c0c0; padding-bottom: 15px; } .divPLineHeight p { line-height:
       1.3; } .divPLineHeight { padding-top: 10px; }
+      .imageFull table {
+        width: 100%;
+      }
     </mj-style>
   </mj-head>
   <mj-body>
