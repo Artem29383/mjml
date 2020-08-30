@@ -1,0 +1,146 @@
+<mj-section padding="0">
+        <mj-column>
+          <mj-table padding="0" cellpadding="2">
+            <tr style="text-align:left;padding:0;" class="tableHeader">
+              <th>
+                <p>Pos</p>
+              </th>
+              <th>
+                <p>Bezeichnung</p>
+              </th>
+              <th>
+                <p>Menge</p>
+              </th>
+              <th>
+                <p>Einzelpreis ( € )</p>
+              </th>
+              <th>
+                <p>Gesamt ( € )</p>
+              </th>
+            </tr>
+            <tbody class="tableBillBody">
+              <tr style="text-align:left;padding:0;">
+                <td>
+                  <p>1</p>
+                </td>
+                <td>
+                  <p>Hausnotruf Classic</p>
+                </td>
+                <td>
+                  <p style="text-align: center;">2</p>
+                </td>
+                <td>
+                  <p>23,00 EUR</p>
+                </td>
+                <td>
+                  <p>46,00 EUR</p>
+                </td>
+              </tr>
+              <tr style="text-align:left;padding:0;">
+                <td>
+                  <p>2</p>
+                </td>
+                <td>
+                  <p>Basisstation</p>
+                </td>
+                <td>
+                  <p style="text-align: center;"></p>
+                </td>
+                <td>
+                  <p></p>
+                </td>
+                <td>
+                  <p>0,00 EUR</p>
+                </td>
+              </tr>
+                <tr style="text-align:left;padding:0;">
+                <td>
+                  <p>3</p>
+                </td>
+                <td>
+                  <p>Funkarmband</p>
+                </td>
+                <td>
+                  <p style="text-align: center;"></p>
+                </td>
+                <td>
+                  <p></p>
+                </td>
+                <td>
+                  <p>0,00 EUR</p>
+                </td>
+                </tr>
+                <tr style="text-align:left;padding:0;">
+                  <td>
+                    <p>4</p>
+                  </td>
+                  <td>
+                    <p>Schlüsseltresor</p>
+                  </td>
+                  <td>
+                    <p style="text-align: center;"></p>
+                  </td>
+                  <td>
+                    <p></p>
+                  </td>
+                  <td>
+                    <p>0,00 EUR</p>
+                  </td>
+                </tr>
+                <tr style="text-align:left;padding:0;">
+                  <td>
+                    <p>5</p>
+                  </td>
+                  <td>
+                    <p>Rechnungsversand per Post</p>
+                  </td>
+                  <td>
+                    <p style="text-align: center;"></p>
+                  </td>
+                  <td>
+                    <p></p>
+                  </td>
+                  <td>
+                    <p>0,00 EUR</p>
+                  </td>
+                </tr>
+            </tbody>
+          </mj-table>
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding="10px 40px 10px 25px">
+      <mj-column width="57%">
+      </mj-column>
+      <mj-group css-class="borderBill" width="43%">
+        <mj-column>
+          <mj-text padding="0" align="left">
+            <p>Summe netto:</p>
+            <p>Umsatzsteuer 19%:</p>
+          </mj-text>
+        </mj-column>
+        <mj-column>
+                  <mj-text padding="0" align="right">
+            <p>46.00 EUR</p>
+            <p>8.74 EUR</p>
+                  </mj-text>
+                </mj-column>
+                </mj-group>
+      </mj-section>
+
+      <mj-section padding="0 40px 20px 25px">
+            <mj-column width="57%">
+            </mj-column>
+            <mj-group width="43%">
+              <mj-column>
+                <mj-text padding="0" align="left">
+                  <p><strong>Rechnungsbetrag:</strong></p>
+                </mj-text>
+              </mj-column>
+              <mj-column>
+                        <mj-text padding="0" align="right">
+                  <p><strong>54.74 EUR</strong></p>
+                        </mj-text>
+                      </mj-column>
+                      </mj-group>
+            </mj-section>

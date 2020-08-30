@@ -14,7 +14,7 @@
       <mj-section padding-top="25px" padding-bottom="25px">
 
         <mj-column width="50%">
-          <mj-text padding-left="0px">
+          <mj-text padding-left="15px">
             <p style="font-size: 17px">
               Zustellung:
             </p>
@@ -45,9 +45,9 @@
         </mj-column>
 
         <mj-column width="100%" border-bottom="3px solid #edecec">
-          <mj-text align="left" padding="15px 0 15px 0">
-            <p style="font-size: 16px;">Die Sendung wurde mit DPD versandt. Wenn Sie diese Sendungen verfolgen möchten, benutzen Sie bitte diese Paketverfolgungsnummer:
-              <%<strong>TTLink</strong>%></p>
+          <mj-text align="left" padding="15px 0 15px 15px">
+            <p style="font-size: 16px; font-style: italic;">Die Sendung wurde mit DPD versandt. Wenn Sie diese Sendungen verfolgen möchten, benutzen Sie bitte diese Paketverfolgungsnummer:
+              <%<strong style="font-style: normal;" >TTLink</strong>%></p>
           </mj-text>
         </mj-column>
 
