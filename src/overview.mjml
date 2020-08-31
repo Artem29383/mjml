@@ -36,7 +36,7 @@
               </td>
               <td></td>
               <td>
-                <p>Ihre Kundennummer:</p>
+                <p><i>Ihre Kundennummer:</i></p>
               </td>
             </tr>
             <tr>
@@ -62,7 +62,7 @@
               </td>
               <td></td>
               <td>
-                <p>Bestelldatum:</p>
+                <p><i>Bestelldatum:</i></p>
               </td>
             </tr>
             <tr>

@@ -1,29 +1,31 @@
 <mj-section padding-bottom="0px" padding-top="0">
   <mj-column>
-    <mj-text css-class="textMargin" align="left" font-size="13px" padding-left="0" padding-right="15px" padding-bottom="10px" padding-top="10px">
-      <p style="font-size: 20px;">
+    <mj-text css-class="textMargin" align="left" font-size="13px" padding-left="10px" padding-right="15px" padding-bottom="10px" padding-top="34px">
+      <p style="font-size: 19px;">
         <%Artikelbezeichnung und/oder Bestellnummer%>
       </p>
-      <p style="font-size: 27px; font-weight: bold;">Herzlich willkommen bei medivato!</p>
-      <p style="font-size: 20px; font-weight: 500;">Sehr geehrte(r)
+      <p style="font-size: 26px; font-weight: bold;">Herzlich willkommen bei medivato!</p>
+      <p style="font-size: 19px; font-weight: 500;">Sehr geehrte(r)
         <%EName1%>,</p>
-      <p style="font-size: 20px; font-weight: 500;">wir freuen uns, dass Sie sich für unsere Notruflösung entschieden haben und danken Ihnen für Ihr Vertrauen.
+      <p style="font-size: 19px; font-weight: 500;">vielen Dank für Ihre Bestellung. Wir möchten Ihnen hiermit mitteilen, dass wir Ihre Bestellung versandt haben.
       </p>
-      <p style="font-size: 20px; hyphens: auto;">
-        Mit dem medivato Hausnotruf Classic sind Sie ab sofort bestmöglich in Ihren eigenen vier Wänden abgesichert und im Notfall ist medizinische Hilfe nur einen Knopfdruck von Ihnen entfernt.
+      <p style="font-size: 19px; hyphens: auto;">
+        Ihr neuer <%Artikelbezeichnung%> ist heute am <%Sendungsdatum%> mit der Sendungsnummer <%Sendungsnummer%> an DHL übergeben worden und auf dem Weg zu Ihnen. Eine Änderung durch Sie oder unseren Kundenservice ist aktuell nicht mehr möglich, gern können Sie sich aber jederzeit per Mail an service@medivato.de an uns wenden.
       </p>
-      <p style="font-size: 20px; hyphens: auto;">
-        Sie erhalten in den nächsten Tagen <strong>Ihre persönliche Notruflösung inklusive eines Antrags für die Krankenkasse zur Übernahme der Kosten bei vorliegender Pflegestufe, unsere AGBs und Ihren persönlichen Notfallplan.</strong> Nehmen Sie sich
-        bitte die Zeit, die darin enthaltenden Angaben zu prüfen. Sollten Sie Änderungen wünschen, teilen Sie uns diese gern mit.
+      <p style="font-size: 19px; hyphens: auto;">
+        Wenn Sie den Sendungsstatus Ihrer Lieferung erfahren möchten, können Sie auf den nachfolgenden Link klicken: <%TTLink%> und ihn hier einsehen.
+        Bitte beachten Sie dabei, dass es nach Erhalt dieser E-Mail bis zu 48 Stunden dauern kann, bis Ihnen die DHL die Sendungsverfolgung zur Verfügung stellen kann.
       </p>
-      <p style="font-size: 20px; hyphens: auto;">
-        Sie erreichen Sie uns telefonisch von Montag bis Freitag <strong>zwischen 10 Uhr und 17 Uhr</strong> unter der <strong>Rufnummer 040 655 833 77</strong>. Oder per Email an <strong>service@medivato.de.</strong>
+      <p style="font-size: 19px; hyphens: auto;">
+        Falls Sie Fragen zur Einrichtung Ihrer Hausnotruflösung oder den zeitgleich per Post versendeten Begleitunterlagen haben, erreichen Sie uns von Montag bis Freitag <span style="font-weight: 500">zwischen 10 Uhr und 17 Uhr</span> unter der <span style="font-weight: 500">Rufnummer 040 655 833 77</span> oder gerne auch per Mail an:
+        <strong>service@medivato.de</strong>
       </p>
+      <p style="font-size: 19px;">Wir freuen uns jederzeit, von Ihnen zu hören.  </p>
       <div class="resetPStyles">
-        <p>
+        <p class="resetPStyles" style="margin:0!important;">
           Herzliche Grüße
         </p>
-        <p>
+        <p class="resetPStyles" style="margin:0!important;">
           Ihr medivato Team
         </p>
       </div>
