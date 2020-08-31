@@ -1,0 +1,30 @@
+<mj-section background-color="#035e89" padding-bottom="0px" padding-top="0">
+        <mj-group>
+          <mj-column width="70%">
+            <mj-text padding="0px">
+              <p style="color: #fff; font-size: 21px; font-weight: 500; padding: 17px 15px 18px 15px;">
+                BESTELLBESTÄTIGUNG
+              </p>
+            </mj-text>
+          </mj-column>
+          <mj-column width="30%">
+            <mj-text align="right">
+              <img src="src/assets/bird.png" />
+            </mj-text>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+
+      <mj-section padding="10px 15px 0 0" css-class="tdPaddingReset">
+      <mj-column>
+          <mj-text>
+             <p style="
+    font-size: 22px;
+    font-weight: 500;
+    padding-bottom: 10px">Wir freuen uns hiermit die Bestellung Ihrer </p>
+             <p style="
+                    font-size: 22px;
+                    font-weight: 500;">Notruflösung zu bestätigen:</p>
+          </mj-text>
+      </mj-column>
+      </mj-section>

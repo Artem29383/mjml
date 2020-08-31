@@ -1,0 +1,23 @@
+<mj-section css-class="header">
+        <mj-column css-class="headerContent">
+          <mj-table>
+            <tr>
+              <td align="center" style="padding: 4px 11px 8px 1px!important;">
+                <img width="191px" height="63px" src="src/assets/logo.png" />
+              </td>
+              <td align="center" class="bottomVertical fontWeight" style="color: #035e89; font-size:15px">
+                <img src="src/assets/phone.png" /> <span style="padding-bottom: 3px;">040 655 83 377</span>
+              </td>
+              <td align="center" class="bottomVertical fontWeight" style="color: #035e89; font-size:15px; padding:2px 2px 8px 0px!important;">
+                <img src="src/assets/mail.png" /> <span style="padding-bottom: 3px;">service@medivato.de</span>
+              </td>
+            </tr>
+          </mj-table>
+        </mj-column>
+      </mj-section>
+      <mj-section background-color="#035e89" padding-bottom="0px" padding-top="0" css-class="line">
+      </mj-section>
+      <mj-section padding="0px" background-url="src/assets/imageHands.png" background-repeat="no-repeat" background-size="cover">
+        <mj-column css-class="imageFull">
+        </mj-column>
+      </mj-section>

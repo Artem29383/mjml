@@ -1,0 +1,76 @@
+      <mj-section padding="40px 0 0 0">
+        <mj-column>
+          <mj-table padding="0 15px 20px 15px" css-class="tableOverviewTD">
+            <tr style="text-align:left;padding:0;">
+              <th class="orderP">Rechnungsanschrift</th>
+              <th style="width: 50px;"></th>
+              <th class="orderP">Lieferanschrift</th>
+              <th style="width: 50px;"></th>
+              <th class="orderP">Kundendaten</th>
+            </tr>
+            <tr>
+              <td>
+                <p style="margin: 0 0 20px 0!important;"></p>
+              </td>
+              <td></td>
+              <td>
+              </td>
+              <td></td>
+              <td>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p>Frau</p>
+              </td>
+              <td></td>
+              <td>
+                <p>Herr</p>
+              </td>
+              <td></td>
+              <td>
+                <p><i>Ihre Kundennummer:</i></p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p>Andrea Meier</p>
+              </td>
+              <td></td>
+              <td>
+                <p>Hans Meier</p>
+              </td>
+              <td></td>
+              <td>
+                <p><strong>123456</strong></p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p>Musterstrasse 23</p>
+              </td>
+              <td></td>
+              <td>
+                <p>Hauptstrasse 123</p>
+              </td>
+              <td></td>
+              <td>
+                <p><i>Bestelldatum:</i></p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p>01234 Musterstadt</p>
+              </td>
+              <td></td>
+              <td>
+                <p>01234 Musterstadt</p>
+              </td>
+              <td></td>
+              <td>
+                <p>15.05.2020</p>
+              </td>
+            </tr>
+          </mj-table>
+        </mj-column>
+      </mj-section>

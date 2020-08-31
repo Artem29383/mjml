@@ -80,7 +80,11 @@ module.exports = {
         exclude: /node_modules/,
         use: jsLoaders(),
       },
-      { test: /\.mjml$/, loader: 'mjml-loader' }
+      { test: /\.mjml$/, loader: 'mjml-loader' },
+      {
+        test: /\.(svg|png|jpg|jpeg|gif)$/,
+        use: ['file-loader']
+      },
     ],
   },
 };
