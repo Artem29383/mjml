@@ -2,20 +2,13 @@
   <mj-head>
     <mj-style>
       .header { Height: 102px; } .container { Width: 600px; padding: 0; } .header td { padding: 5px 0 8px 1px!important; } .headerContent { height: 100%!important; vertical-align: top!important; } .bottomVertical { vertical-align: bottom!important; } .fontWeight
-      { font-weight: 500; } .line { height: 24px!important; } .textMargin p { margin-bottom: 32px!important; } .resetPStyles { margin: 0!important; padding: 0!important; line-height: 1.1!important; font-size: 20px; font-weight: 500; } .resetPStyles
-      { margin-bottom: 40px!important; } p { color: #035e89; } .paragraphAddress { margin: 0!important; padding: 0!important; line-height: 1.2!important; font-size: 17px!important; font-weight: 500!important; } .buttonStyle { text-transform: uppercase!important;
+      { font-weight: 500; } .line { height: 24px!important; } .textMargin p { margin-bottom: 32px!important; } .resetPStyles { margin: 0!important; padding: 0!important; line-height: 1.1!important; font-size: 20px; font-weight: 500; } .resetPStyles {
+      margin-bottom: 40px!important; } p { color: #035e89; } .paragraphAddress { margin: 0!important; padding: 0!important; line-height: 1.2!important; font-size: 17px!important; font-weight: 500!important; } .buttonStyle { text-transform: uppercase!important;
       font-weight: bold!important; font-size: 17px!important; } .button td { padding: 10px 5px 10px 15px!important; } .orderP { font-size: 18.7px; font-weight: 500; border-bottom: 3px solid #edecec; padding-bottom: 15px; color: #035e89; } .tableView {
       border-spacing: 7px!important; } table p { margin: 0!important; } .tableHeader p { color: #fff!important; padding: 20px 0 20px 15px!important; } .tableHeader { background-color: #035e89; } .tableOverviewTD td { line-height: 1.2; } .tableBillBody
       tr { background-color: #e1dfde; } .tableBillBody tr:nth-child(2n) { background-color: #fff; } .tableBillBody p { padding: 5px 15px!important; } .borderBill { border-bottom: 3px solid #c0c0c0; padding-bottom: 15px; } .divPLineHeight p { line-height:
-      1.3; font-size: 13px!important; } .divPLineHeight { padding-top: 10px; }
-      .imageFull table {
-        width: 100%;
-        height: 213px;
-      }
-      .tableOverviewTD p {
-        font-size: 16px!important;
-        padding-bottom: 5px;
-      }
+      1.3; font-size: 13px!important; } .divPLineHeight { padding-top: 10px; } .imageFull table { width: 100%; height: 213px; } .tableOverviewTD p { font-size: 16px!important; padding-bottom: 5px; } .spaceBetween div:firstChild { width: 40%!important;
+      } .spaceBetween div:lastChild { width: 60%!important; } .fixPadding td { padding: 10px 15px 10px 15px!important; }
     </mj-style>
   </mj-head>
   <mj-body>
@@ -27,71 +20,77 @@
       <mj-include path="src/overview.mjml" />
       <mj-include path="src/tableBill.mjml" />
       <mj-section background-color="#035e89" padding-bottom="0px" padding-top="0">
-        <mj-column width="70%">
-          <mj-text padding="0px">
-            <p style="color: #fff; font-size: 16px; padding: 17px 15px 18px 15px;">
-              Besuchen Sie uns unter <span style="font-weight: 500;">www.medivato.de</span>
-            </p>
-          </mj-text>
-        </mj-column>
-        <mj-column width="30%">
-          <mj-text align="right">
-            <img src="src/assets/bird.png" />
-          </mj-text>
-        </mj-column>
+        <mj-group>
+          <mj-column width="70%">
+            <mj-text padding="0px">
+              <p style="color: #fff; font-size: 16px; padding: 17px 15px 18px 15px;">
+                Besuchen Sie uns unter <span style="font-weight: 500;">www.medivato.de</span>
+              </p>
+            </mj-text>
+          </mj-column>
+          <mj-column width="30%">
+            <mj-text align="right">
+              <img src="src/assets/bird.png" />
+            </mj-text>
+          </mj-column>
+        </mj-group>
       </mj-section>
 
 
       <mj-section>
-        <mj-column width="60%">
-          <mj-text padding="10px 0 10px 15px">
-            <p style="font-size: 19px; font-weight: 500;">MEDIVATO AG</p>
-            <div class="divPLineHeight">
-              <p>Astraturm • Zirkusweg 2</p>
-              <p>D - 20359 Hamburg</p>
-            </div>
-            <div class="divPLineHeight">
-              <p>Fon: +49 (0) 40 655 833 77</p>
-              <p>Fax: +49 (0) 40 655 833 78</p>
-            </div>
-            <div class="divPLineHeight">
-              <p>Vorstand: Patrick Woyke</p>
-              <p>Vorsitzender des Aufsichtsrates: Matthias Witt</p>
-              <p>Registergericht: Amtsgericht Hamburg HRB 160516</p>
-            </div>
-          </mj-text>
-        </mj-column>
-        <mj-column width="40%">
-          <mj-text align="right" padding="10px 0 10px 15px">
-            <p style="font-weight: 500;">Sie haben Fragen?</p>
-            <p style="font-weight: 500;">Wir beraten Sie gerne!</p>
-            <p style="font-weight: 500; font-size: 25px; padding: 10px 0 0 0;">040 655 83 377</p>
-            <p style="padding: 15px 0;"></p>
-            <p style="font-weight: 500; padding-bottom: 10px;">Folgen Sie uns auf</p>
-            <div>
-              <img style="padding: 0 15px 0 0" src="src/assets/twitter.png" />
-              <img style="padding: 0 15px 0 0" src="src/assets/facebook.png" />
-              <img src="src/assets/insta.png" />
-            </div>
-          </mj-text>
-        </mj-column>
+        <mj-group>
+          <mj-column width="60%">
+            <mj-text padding="10px 0 10px 15px">
+              <p style="font-size: 19px; font-weight: 500;">MEDIVATO AG</p>
+              <div class="divPLineHeight">
+                <p>Astraturm • Zirkusweg 2</p>
+                <p>D - 20359 Hamburg</p>
+              </div>
+              <div class="divPLineHeight">
+                <p>Fon: +49 (0) 40 655 833 77</p>
+                <p>Fax: +49 (0) 40 655 833 78</p>
+              </div>
+              <div class="divPLineHeight">
+                <p>Vorstand: Patrick Woyke</p>
+                <p>Vorsitzender des Aufsichtsrates: Matthias Witt</p>
+                <p>Registergericht: Amtsgericht Hamburg HRB 160516</p>
+              </div>
+            </mj-text>
+          </mj-column>
+          <mj-column width="40%">
+            <mj-text align="right" padding="10px 0 10px 15px">
+              <p style="font-weight: 500;">Sie haben Fragen?</p>
+              <p style="font-weight: 500;">Wir beraten Sie gerne!</p>
+              <p style="font-weight: 500; font-size: 25px; padding: 10px 0 0 0;">040 655 83 377</p>
+              <p style="padding: 15px 0;"></p>
+              <p style="font-weight: 500; padding-bottom: 10px;">Folgen Sie uns auf</p>
+              <div>
+                <img style="padding: 0 15px 0 0" src="src/assets/twitter.png" />
+                <img style="padding: 0 15px 0 0" src="src/assets/facebook.png" />
+                <img src="src/assets/insta.png" />
+              </div>
+            </mj-text>
+          </mj-column>
+        </mj-group>
       </mj-section>
 
       <mj-section background-color="#035e89" padding-bottom="0px" padding-top="0">
-        <mj-column width="50%">
-          <mj-text padding="0px">
-            <p style="color: #fff; font-size: 16px; padding: 17px 15px 18px 15px;">
-              © 2020 medivato AG
-            </p>
-          </mj-text>
-        </mj-column>
-        <mj-column width="50%">
-          <mj-text align="right">
-            <p style="color: #fff; font-size: 16px; line-height: 2.2;">
-              Impressum <span style="padding: 0 10px;">|</span> Datenschutz
-            </p>
-          </mj-text>
-        </mj-column>
+        <mj-group>
+          <mj-column width="50%">
+            <mj-text padding="0px">
+              <p style="color: #fff; font-size: 16px; padding: 17px 15px 18px 15px;">
+                © 2020 medivato AG
+              </p>
+            </mj-text>
+          </mj-column>
+          <mj-column width="50%">
+            <mj-text align="right">
+              <p style="color: #fff; font-size: 16px; line-height: 2.2;">
+                Impressum <span style="padding: 0 10px;">|</span> Datenschutz
+              </p>
+            </mj-text>
+          </mj-column>
+        </mj-group>
       </mj-section>
     </mj-wrapper>
   </mj-body>
